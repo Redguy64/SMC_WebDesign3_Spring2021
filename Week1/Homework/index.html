@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="main.css" rel="stylesheet">
+    <link href="pagedesign.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100&family=Roboto+Mono&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div>
+        <h1>Rem Koolhaas' Projects</h1>
+
+        <picture>
+            <source media="(max-width:480px)">
+            <source media="(min-width:768px)">
+            <img src="Airport2000.jpg" alt="Airport" style="width:33%;">
+        </picture>
+
+        <picture>
+            <source media="(max-width:480px)">
+            <source media="(min-width:768px)">
+            <img src="CCTV.jpg" alt="CCTV" style="width:33%;">
+        </picture>
+
+        <picture>
+            <source media="(max-width:480px)">
+            <source media="(min-width:768px)">
+            <img src="CourtyardTower.jpg" alt="Courtyard Towers" style="width:33%;">
+        </picture>
+
+        <picture>
+            <source media="(max-width:480px)">
+            <source media="(min-width:768px)">
+            <img src="ElectronicShowroom.jpg" alt="Showroom" style="width:33%;">
+        </picture>
+
+        <picture>
+            <source media="(max-width:480px)">
+            <source media="(min-width:768px)">
+            <img src="Gent.jpg" alt="Gent" style="width:33%;">
+        </picture>
+
+        <picture>
+            <source media="(max-width:480px)">
+            <source media="(min-width:768px)">
+            <img src="KUBE.jpg" alt="Kube" style="width:33%;">
+        </picture>
+
+        <picture>
+            <source media="(max-width:480px)">
+            <source media="(min-width:768px)">
+            <img src="Maison.jpg" alt="Maison" style="width:33%;">
+        </picture>
+
+        <picture>
+            <source media="(max-width:480px)">
+            <source media="(min-width:768px)">
+            <img src="NATO.png" alt="NATO" style="width:33%;">
+        </picture>
+
+        <picture>
+            <source media="(max-width:480px)">
+            <source media="(min-width:768px)">
+            <img src="NexusHousing.jpg" alt="Nexus HousingS" style="width:33%;">
+        </picture>
+
+        <p>Rem Koolhaas (Rotterdam, 1944) founded OMA in 1975 together with Elia and Zoe Zenghelis and Madelon
+            Vriesendorp. He graduated from the Architectural Association in London and in 1978 published Delirious New
+            York: A Retroactive Manifesto for Manhattan. In 1995, his book S,M,L,XL summarized the work of OMA in "a
+            novel about architecture". He co-heads the work of both OMA and AMO, the research branch of OMA, operating
+            in areas beyond the realm of architecture. His built work includes the Axel Springer Campus in Berlin
+            (2020), the Qatar National Library and the Qatar Foundation Headquarters (2018), Fondation Galeries
+            Lafayette in Paris (2018), Fondazione Prada in Milan (2015/2018), Garage Museum of Contemporary Art in
+            Moscow (2015), the headquarters for China Central Television (CCTV) in Beijing (2012), Casa da Musica in
+            Porto (2005), Seattle Central Library (2004), and the Netherlands Embassy in Berlin (2003). Current projects
+            include the Taipei Performing Arts Centre and the renovation of Tretyakov Gallery in Moscow. Koolhaas
+            directed the 2014 Venice Architecture Biennale, is a professor at Harvard University, and curated
+            Countryside: The Future (2020), an exhibition about the non-urban areas around the globe that opened in
+            February 2020 at the Guggenheim Museum in New York.</p>
+    </div>
+
+    <div>
+        <picture>
+            <source media="(max-width:480px)">
+            <source media="(min-width:768px)" style="max-width:100%;">
+            <img src="RemKoolhaas.jpg" alt="Rem Koolhaas" class="Bio Rem">
+        </picture>
+        <div class="Bio w-30">
+            <h1>About Rem Koolhaas</h1>
+            <p>Remment Lucas Koolhaas born 17 November 1944 is a Dutch architect, architectural theorist, urbanist and
+                Professor in Practice of Architecture and Urban Design at the Graduate School of Design at Harvard
+                University. He is often cited as a representative of Deconstructivism and is the author of Delirious New
+                York: A Retroactive Manifesto for Manhattan. He is seen by some as one of the truly significant
+                architectural thinkers and urbanists of his generation, by others as a self-important iconoclast. In
+                2000, Rem Koolhaas won the Pritzker Prize.</p>
+            <button Id="Button1" class="Button1 ButtonDesign">Read More</button>
+            <p class="Paragraph2 Hide">In 2008, Time put him in their top 100 of The World's Most
+                Influential People. Koolhaas's book Delirious New York set the pace for his career. Koolhaas analyzes
+                the "chance-like" nature of city life: "The City is an addictive machine from which there is no escape"
+                "Rem Koolhaas...defined the city as a collection of 'red hot spots'." As Koolhaas himself has
+                acknowledged, this approach had already been evident in the Japanese Metabolist Movement in the 1960s
+                and early 1970s.
+            </p>
+            <button Id="Button2" class="Button2 ButtonDesign Hide">Read Less</button>
+        </div>
+        <div class="clear"></div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    <script>
+        $(document).ready(function () {
+            //Hide and Show Buttons for all Info
+
+            $('#Button2').click(function () {
+                $(".Button2").addClass("Hide");
+                $(".Paragraph2").addClass("Hide");
+                $(".Button1").removeClass("Hide");
+            });
+
+            //Remove Border Button
+            $('#Button1').click(function () {
+                $(".Button2").removeClass("Hide");
+                $(".Paragraph2").removeClass("Hide");
+                $(".Button1").addClass("Hide");
+            });
+        });
+    </script>
+
+    <div class="container ContactForm">
+        <h1 class="Title-Color">Contact the Artist</h1>
+
+        <p class="Text-Color">Contact the Artist about their work or something else.</p>
+
+        <form action="action_page.php">
+
+            <label for="fname" style="font-family: 'Noto Sans TC', sans-serif;">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="First Name..">
+
+            <label for="lname" style="font-family: 'Noto Sans TC', sans-serif;">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Last Name..">
+
+            <label for="lname" style="font-family: 'Noto Sans TC', sans-serif;">Email</label>
+            <input type="text" id="email" name="email" placeholder="email@example.com">
+
+            <label for="lname" style="font-family: 'Noto Sans TC', sans-serif;">Subject</label>
+            <input type="text" id="subject" name="subject" placeholder="Write something">
+
+            <label for="subject" style="font-family: 'Noto Sans TC', sans-serif;">Message</label>
+            <textarea id="message" name="textarea" placeholder="You're Message here" style="height:200px"></textarea>
+
+            <input type="submit" value="Submit">
+
+        </form>
+    </div>
+</body>
+
+</html>

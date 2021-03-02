@@ -1,0 +1,68 @@
+/* Mobile Design */
+@media(max-width: 480px) {
+    #Dog2 {
+        max-width: 100%;
+    }
+
+    #Dog3 {
+        max-width: 100%;
+    }
+
+    #Dog4 {
+        max-width: 100%;
+    }
+
+    .bg-primary {
+        background-color: #ffef98 !important;
+    }
+
+    .bg-info {
+        background-color: #3eb7c4 !important;
+    }
+
+    .bg-secondary {
+        background-color: #a9a9a9 !important;
+    }
+}
+
+/* Desktop Design */
+@media(min-width: 768px) {
+    #Dog2 {
+        max-width: 79.5%;
+    }
+
+    #Dog3 {
+        max-width: 100%;
+    }
+
+    #Dog4 {
+        max-width: 75%;
+    }
+
+    .col-xl-2 {
+        flex: 0 0 auto;
+        width: 32.667%;
+    }
+
+    .col-xl-4 {
+        flex: 0 0 auto;
+        width: 26.333%;
+    }
+
+    .col-md-6 {
+        flex: 0 0 auto;
+        width: 33%;
+    }
+
+    .bg-primary {
+        background-color: #ff9a9a !important;
+    }
+
+    .bg-info {
+        background-color: #c4903e !important;
+    }
+
+    .bg-secondary {
+        background-color: #a9a9a9 !important;
+    }
+}

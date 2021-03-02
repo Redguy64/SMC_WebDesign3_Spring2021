@@ -1,0 +1,46 @@
+h1 {
+    font-family: 'Roboto Mono', monospace;
+}
+
+p {
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+.Hide {
+    display: none;
+}
+
+.ButtonDesign {
+    font-family: 'Roboto Mono', monospace;
+    background-color: white;
+    border: none;
+    color: black;
+}
+
+/* Desktop Design */
+@media(min-width: 768px) {
+    body {
+        margin-left: 250px;
+        margin-right: 250px;
+    }
+
+    .Bio {
+        float: left;
+    }
+
+    .w-30 {
+        max-width: 49%;
+        padding-left: 18px;
+    }
+
+    .clear {
+        clear: both;
+    }
+}
+
+/* Mobile Design */
+@media(max-width: 480px) {
+    .Rem {
+        max-width: 100%;
+    }
+}
