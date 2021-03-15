@@ -1,0 +1,64 @@
+h1 {
+    font-family: 'Shippori Mincho B1', serif !important;
+}
+
+h3 {
+    font-family: 'Shippori Mincho B1', serif !important;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+.card-title {
+    font-family: 'Shippori Mincho B1', serif !important;
+}
+
+.row-cols-md-3 > * {
+    flex: 0 0 auto;
+    width: 50%;
+    border: solid rgb(92, 71, 67) 3px;
+}
+
+.bg-light {
+    background-color: rgb(191, 67, 66) !important;
+}
+
+.card-body {
+    background-color: rgb(231, 215, 193) !important;
+}
+
+section {
+    background-color: rgb(167, 138, 127) !important;
+}
+
+body {
+    background-color: darkred;
+}
+
+.article1 {
+    color: rgb(92, 71, 67);
+    padding: 10px;
+    background-color: rgb(231, 215, 193) !important;
+    border-radius: 4px;
+}
+
+/* Desktop Design */
+@media(min-width: 768px) {
+    .row-cols-md-3 > * {
+        flex: 0 0 auto;
+        width: 25%;
+        border: solid rgb(92, 71, 67) 3px;
+        border-radius: 4px;
+    }
+}
+
+/* Mobile Design */
+@media(max-width: 480px) {
+    .row-cols-md-3 > * {
+        flex: 0 0 auto;
+        width: 100%;
+        border: solid rgb(92, 71, 67) 3px;
+        border-radius: 4px;
+    }
+}
