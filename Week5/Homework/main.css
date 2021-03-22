@@ -1,0 +1,16 @@
+.Product1 {
+    padding-left: 20px;
+}
+
+.btn1 {
+    background: none;
+    border: solid lightgray;
+    border-radius: 5px;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-bottom: 4px;
+}
+
+.hide {
+    display: none;
+}
