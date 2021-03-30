@@ -1,0 +1,43 @@
+.card-body {
+    background-color: rgb(231, 215, 193) !important;
+}
+
+.ClearBoth {
+    clear: both;
+}
+
+.float {
+    float: left;
+}
+
+/* Desktop Design */
+@media(min-width: 768px) {
+    .row-cols-md-3 > * {
+        flex: 0 0 25%;
+        max-width: 25% !important;
+    }
+
+    .ClearBoth {
+        clear: both;
+    }
+    
+    .float {
+        float: left;
+    }
+}
+
+/* Mobile Design */
+@media(max-width: 480px) {
+    .row-cols-md-3 > * {
+        flex: 0 0 auto;
+        max-width: 100% !important;
+    }
+
+    .ClearBoth {
+        clear: both;
+    }
+    
+    .float {
+        float: left;
+    }
+}
