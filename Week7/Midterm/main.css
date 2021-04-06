@@ -1,0 +1,79 @@
+.card-body {
+    background-color:rgb(208, 208, 208) !important;
+}
+
+.ClearBoth {
+    clear: both;
+}
+
+.float {
+    float: left;
+}
+
+body {
+    background-color: silver;
+}
+
+.BackgroundColor {
+    background-color: white;
+    border-radius: 25px;
+    padding: 16px;
+}
+
+img {
+    border-radius: 25px;
+}
+
+img.card-img-top {
+    border-radius: 0px !important;
+}
+
+.AlertButton {
+    Background: none;
+    Border: solid 2px;
+    border-radius: 10px;
+}
+
+/* Desktop Design */
+@media(min-width: 768px) {
+    .row-cols-md-3 > * {
+        flex: 0 0 25%;
+        max-width: 25% !important;
+    }
+
+    .ClearBoth {
+        clear: both;
+    }
+    
+    .float {
+        float: left;
+    }
+}
+
+.green {
+    color: green !important;
+}
+
+.red {
+    color: red !important;
+}
+
+/* Mobile Design */
+@media(max-width: 480px) {
+    .row-cols-md-3 > * {
+        flex: 0 0 auto;
+        max-width: 100% !important;
+    }
+
+    .ClearBoth {
+        clear: both;
+    }
+    
+    .float {
+        float: left;
+    }
+
+    .card {
+        padding-top: 10px;
+    }
+}
