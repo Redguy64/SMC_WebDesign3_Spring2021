@@ -1,0 +1,78 @@
+/* Mobile Design */
+@media(max-width: 480px) {
+    .bg-primary {
+        background-color: #ffef98 !important;
+    }
+
+    .bg-info {
+        background-color: #3eb7c4 !important;
+    }
+
+    .bg-secondary {
+        background-color: #a9a9a9 !important;
+    }
+
+    .navbar-brand img {
+        max-width: 40px;
+    }
+
+    .col {
+        max-width: 33%;
+    }
+}
+
+/* Desktop Design */
+@media(min-width: 768px) {
+    .col-xl-2 {
+        flex: 0 0 auto;
+        width: 32.667%;
+    }
+
+    .col-xl-4 {
+        flex: 0 0 auto;
+        width: 26.333%;
+    }
+
+    .col-md-6 {
+        flex: 0 0 auto;
+        width: 33%;
+    }
+
+    .bg-primary {
+        background-color: #ff9a9a !important;
+    }
+
+    .bg-info {
+        background-color: #c4903e !important;
+    }
+
+    .bg-secondary {
+        background-color: #a9a9a9 !important;
+    }
+
+    .navbar-brand img {
+        max-width: 40px;
+    }
+
+    .col {
+        max-width: 33%;
+    }
+}
+
+ul li:hover {
+    background-color: rgba(32, 85, 181, 0.5);
+    border-bottom: 2px solid black;
+    transition: 1400ms;
+}
+
+.Image2:hover {
+    transform: scale(150%, 150%);
+}
+
+.Image5:hover {
+    transform: rotate(90deg);
+}
+
+.Image9:hover {
+    transform: rotate(90deg) scale(150%, 150%);
+}
