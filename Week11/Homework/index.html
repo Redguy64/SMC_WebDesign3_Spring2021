@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game 1</title>
+    <link href="main.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Press+Start+2P&display=swap"
+        rel="stylesheet">
+    <style>
+        body {
+            margin: auto;
+        }
+
+        canvas {
+            border: 2px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <h1 class="active">Ball Clicker</h1>
+    </div>
+    <div>
+        <h2>Ball Color Changers</h2>
+        <button type="button" id="ColorChange2">Original</button>
+        <button type="button" id="ColorChange1">Blue</button>
+        <button type="button" id="ColorChange3">Green</button>
+        <button type="button" id="ColorChange4">Yellow</button>
+        <p>Current Score: Ball Clicked <a id="clicks">0</a> Times</p>
+    </div>
+    <div class="CanvasGame">
+        <canvas id="myGame" width="800" height="600">
+            Please install a newer broswer to play this game.
+        </canvas>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="canvasStatic.js"></script>
+    <script src="canvasGame.js"></script>
+</body>
+
+</html>
