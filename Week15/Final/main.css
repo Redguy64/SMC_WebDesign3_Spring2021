@@ -1,0 +1,201 @@
+/* Mobile Design */
+@media(max-width: 480px) {
+    .img-fluid {
+        max-width: 20%;
+        height: auto;
+    }
+
+    .HomepageImage1 {
+        max-width: 100%;
+    }
+
+    iframe {
+        max-width: 100%;
+    }
+
+    .jumbotron {
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        max-width: 100%;
+    }
+
+    .CarouselImage {
+        Max-width:100%;
+    }
+
+    .ProductUse {
+        max-width: 100%;
+    }
+
+    .HomepageImage1 {
+        max-width: 100%;
+    }
+
+    main, body {
+        background-color: #f2f2f2;
+    }
+
+    .text-success {
+        color: darkgreen !important;
+    }
+
+    .logo {
+        font-family: 'Audiowide', cursive;
+    }
+
+    .StockGreen {
+        color: rgb(0, 200, 0);
+    }
+
+    .StockRed {
+        color: rgb(200,0,0);
+    }
+
+    .Product2Image {
+        max-width: 100%;
+    }
+
+    .Product3Image {
+        max-width: 100%;
+    }
+
+    .Product1Image {
+        max-width: 100%;
+    }
+
+    h1, h2, h3, h4, h5 {
+        font-family: 'Raleway', sans-serif;
+    }
+
+    p, span, a {
+        font-family: 'Crimson Text', serif;
+    }
+}
+
+/* Desktop Design */
+@media(min-width: 768px) {
+    .img-fluid {
+        max-width: 10%;
+        height: auto;
+    }
+
+    .navbar-brand {
+        padding-top: .3125rem;
+        padding-bottom: .3125rem;
+        margin-right: 10rem;
+        font-size: 1.25rem;
+        text-decoration: none;
+        white-space: nowrap;
+    }
+
+    .container-fluid {
+        background-color: rgb(0, 104, 201);
+    }
+
+    .bg-light {
+        background-color: rgb(0, 104, 201) !important;
+    }
+
+    .jumbotron {
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 1rem;
+        padding-left: 1rem;
+        background-color: lightblue;
+        border-radius: 20px;
+        margin-left: 0.25rem;
+        margin-right: 0.5rem;
+    }
+
+    .flex {
+        display: flex;
+    }
+
+    .card {
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-top: 1%;
+    }
+
+    .CarouselImage {
+        Max-width:100%;
+    }
+
+    .ProductUse {
+        max-width: 100%;
+    }
+
+    ul li:hover {
+        border-radius: 5px;
+      background-color: blue;
+      animation-name: example;
+      animation-duration: 1s;
+      animation-iteration-count: infinite;
+      animation-direction: alternate;
+      }
+      
+      @keyframes example {
+        from {background-color: blue;}
+        to {background-color: skyblue;}
+    }
+
+    .btn:hover {
+        border-radius: 5px;
+      background-color: blue;
+      animation-name: example;
+      animation-duration: 1s;
+      animation-iteration-count: infinite;
+      animation-direction: alternate;
+      }
+      
+      @keyframes example {
+        from {background-color: blue;}
+        to {background-color: skyblue;}
+    }
+
+    main, body {
+        background-color: #f2f2f2;
+    }
+
+    .text-success {
+        color: white !important;
+    }
+
+    .logo {
+        font-family: 'Audiowide', cursive;
+    }
+
+    .StockGreen {
+        color: rgb(0, 200, 0);
+    }
+
+    .StockRed {
+        color: rgb(200,0,0);
+    }
+
+    .Product1Image {
+        max-width: 100%;
+    }
+
+    .Product2Image {
+        max-width: 100%;
+    }
+
+    .Product3Image {
+        max-width: 100%;
+    }
+
+    h1, h2, h3, h4, h5 {
+        font-family: 'Raleway', sans-serif;
+    }
+
+    p, span, a {
+        font-family: 'Crimson Text', serif;
+    }
+        
+}
